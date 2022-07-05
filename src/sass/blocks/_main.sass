@@ -1,0 +1,131 @@
+.main
+    position: relative
+    min-height: 100px
+    &__text
+        font-weight: 500
+        font-size: 18px
+        line-height: 22px
+        &_basket
+            margin-top: 50px
+            text-decoration-line: underline
+        &_mt
+            margin-top: 80px
+        &_dostavka
+            margin-top: 50px
+    &__title
+        font-weight: 600
+        font-size: 36px
+        letter-spacing: 0.15em
+        text-transform: uppercase
+        margin-top: 80px
+    &__wrapper
+        margin-top: 32px
+        display: flex
+        justify-content: space-between
+    &__cards
+        position: relative
+        margin-top: 49px
+        border: 2px solid rgba(0, 0, 0, 0.2)
+        border-radius: 0px 0px 40px 0px
+        width: 465px
+        padding: 0 20px 28px 20px
+    &__card
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 30px
+    &__content
+        display: flex
+    &__square
+        width: 110px
+        height: 110px
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
+    &__inner
+        margin-left: 18px
+    &__subtitle
+        font-weight: 300
+        font-size: 18px
+        text-transform: uppercase
+    &__descr
+        font-weight: 400
+        font-size: 12px
+        line-height: 15px
+        letter-spacing: 0.1em
+        text-transform: capitalize
+        margin-top: 7px
+        width: 197px
+    &__flex
+        display: flex
+        justify-content: space-between
+        margin-top: 10px
+        width: 99px
+    &__price
+        font-weight: 500
+        font-size: 20px
+        text-transform: capitalize
+    &__arrow
+        position: absolute
+        right: 18px
+        color: #CCCCCC
+        font-size: 38px
+        bottom: 2px
+    &__form 
+        width: 465px
+        &_flex
+            display: flex
+            justify-content: space-between
+            &_mt
+                margin-top: 49px
+            &_email
+                margin-top: 30px
+            &_dostavka
+                margin-top: 40px
+                align-items: center
+        &_wrapper
+            display: flex
+            flex-direction: column
+    &__input
+        width: 225px
+        height: 45px
+        border: none
+        outline-style: none
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15)
+        padding-left: 10px
+        &_street
+            width: 350px
+        &_home 
+            width: 100px
+            z-index: 2
+    &__dostavka
+        font-weight: 400
+        font-size: 14px
+    &__button
+        background: linear-gradient(271.55deg, #FFEBEB -10.33%, #F8FFD9 98.99%)
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13)
+        border-radius: 30px
+        width: 225px
+        height: 60px
+        border: none
+        font-weight: 400
+        font-size: 18px
+        z-index: 2
+
+    &__images
+        position: absolute
+        &_1
+            left: 0
+            top: 0
+            width: 250px
+        &_2
+            left: 0
+            top: 500px
+            width: 150px
+        &_3
+            right: 0
+            top: 0
+            width: 200px
+        &_4
+            right: 0
+            top: 560px
+            width: 300px
+            z-index: 1
